@@ -1,12 +1,12 @@
 WHAT I DO: Search a folder you target for jpegs, and either copy those jpegs & folders to the location ths program is run from, -OR- work directly in the target folder. Then I Downsize the large ones and apply basic compression to all of them. 
 
 How do You use me?
-Simple: download the 1.1 exe and run it.
-Too smart to run unsigned code in a sensetive enviroment: Compile it yourself! 
-run the command:
-git clone https://github.com/DobermanTech/Image-Compressor.git
-cd "to the correct folder"
-python "Image find and shrink 1.1.py"
+Simple: download the image Kompressor.exe and run it.
+Too smart to run unsigned code in a sensetive enviroment?: You'll need to install the python.  If ya don't  use the python for anything else, you probably don't need a venv.
+run the command git clone https://github.com/DobermanTech/Image-Compressor.git, or, ya know, just download it. 
+cd "to wherever you put it"
+pip install -r requirments.txt  or pip install pillow
+python "Image Kompressor.py"
 
 
 When run, this program, will ask you a couple questions on how to handle your images.  All inputs are either "y" or "n" except for the target address that you are searching for images.  
